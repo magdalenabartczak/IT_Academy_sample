@@ -1,7 +1,8 @@
 package Test1;
 
 import java.util.Scanner;
-
+/*Bonus task: enhance the program so each element is printed N times. N is defined in method main.
+*/
 public class PrintStringNtimes {
     public static void main(String[] args) {
         String[] arrOfStrings = new String[]{"a", "b"};
