@@ -53,7 +53,7 @@ public class EqualsApplication {
         System.out.println("Consistent");
         System.out.println("invocation 1: " + p1.equals(p2));
         System.out.println("invocation 2: " + p1.equals(p2));
-        System.out.println("invocation 3: " + p1.equals(p2));
+        System.out.println("inocation 3: " + p1.equals(p2));
 
         System.out.println();
         System.out.println("null-safe");
