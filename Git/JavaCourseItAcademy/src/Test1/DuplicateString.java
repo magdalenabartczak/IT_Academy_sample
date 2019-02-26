@@ -13,7 +13,8 @@ public class DuplicateString {
         String[] arrOfStrings = new String[]{"a", "b"};
 
         for (int i = 0; i < arrOfStrings.length; i++){
-            System.out.print(arrOfStrings[i]+ ", "+ arrOfStrings[i]+", ");
+            for (int j = 0; j < 2; j++)
+            System.out.print(arrOfStrings[i]+ ", ");
         }
     }
 }

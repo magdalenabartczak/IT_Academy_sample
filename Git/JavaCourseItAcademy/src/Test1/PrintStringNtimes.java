@@ -8,7 +8,7 @@ public class PrintStringNtimes {
 
             for (int i = 0; i < arrOfStrings.length; i++) {
                 for (int j = 0; j < n; j++)
-                System.out.print(arrOfStrings[i] + " ");
+                System.out.print(arrOfStrings[i] + ", ");
             }
     }
 }
