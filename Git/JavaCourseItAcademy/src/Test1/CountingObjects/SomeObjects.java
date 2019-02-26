@@ -12,5 +12,7 @@ Tip: remember static variables?
 public class SomeObjects {
     static int countObjects = 0;
 
-
+    public SomeObjects(){
+        countObjects++;
+    }
 }
